@@ -1,0 +1,6 @@
+# Coqui XTTS v2 (02b_tts.py --system xtts)용. 가중치 라이선스: Coqui Public Model License(비상업)
+coqui-tts
+numpy
+soundfile
+librosa
+six              # coqui-tts가 쓰지만 의존성 목록에 빠져 있음

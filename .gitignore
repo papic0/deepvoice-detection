@@ -1,0 +1,44 @@
+# ===== 용량이 큰 파일 (GitHub 파일당 100MB 제한) =====
+# 가상환경
+.venv/
+.venv_*/
+# 모델 가중치 (setup_weights.py로 다시 받음)
+weights/
+pretrained/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# ===== 음성 데이터 =====
+# 공개 데이터 원본: 01_prepare_ko.py로 다시 받음
+# 생성한 가짜 음성: 데이터 화자의 목소리를 복제한 것이므로 외부 공유 금지
+data/
+*.wav
+*.flac
+*.mp3
+*.ogg
+
+# ===== 실행 기록·임시 파일 =====
+# logs에는 내 컴퓨터 경로 등이 들어 있음
+logs/
+__pycache__/
+*.pyc
+*.zip
+*.part
+.ipynb_checkpoints/
+
+# 사전 실험용 판정 리포트 (모델 비교에는 results/*/compare.* 사용)
+results/**/report.md
+
+# 첫 업로드용 일회성 파일
+git_first_push.bat
+commit_msg.txt
+
+# ===== 개인 환경 =====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+~$*

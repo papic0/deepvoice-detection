@@ -1,0 +1,3 @@
+# Resemble AI Chatterbox Multilingual (02b_tts.py --system chatterbox)용, MIT
+chatterbox-tts
+soundfile

@@ -1,0 +1,10 @@
+# 코덱·보코더 재합성(02_resynth.py)용
+numpy
+scipy
+soundfile
+librosa
+transformers
+huggingface_hub
+speechbrain
+snac
+descript-audio-codec

@@ -1,0 +1,21 @@
+# 전체 실험(한국어 데이터 준비·가짜 음성 생성 포함)용 패키지
+# 탐지기만 돌릴 때는 requirements-bench.txt로 충분
+# Python 3.11 권장 (3.10~3.13에서 동작 확인 대상)
+# GPU 사용 시 torch/torchaudio는 https://pytorch.org 안내에 맞는 버전으로 먼저 설치
+torch
+torchaudio
+numpy
+scipy
+soundfile
+librosa
+pandas
+matplotlib
+tabulate
+transformers>=4.45   # Mimi(kyutai/mimi) 지원 버전
+datasets             # Hugging Face에서 Zeroth-Korean 받을 때만 필요
+speechbrain>=1.0     # HiFi-GAN 대조군
+snac                 # SNAC 코덱
+descript-audio-codec # DAC 코덱 (protobuf 버전 경고가 나와도 이 실험에는 영향 없음)
+safetensors
+huggingface_hub
+gdown                # Wav2Vec2-AASIST 가중치 내려받기

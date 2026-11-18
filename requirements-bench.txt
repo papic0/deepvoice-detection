@@ -1,0 +1,17 @@
+# 탐지기 3종 실행용 최소 패키지 (Python 3.10~3.14, Windows/Linux/macOS/Colab)
+# NVIDIA GPU가 있으면 torch/torchaudio를 https://pytorch.org 안내대로 CUDA 버전으로 먼저 설치
+# fairseq는 필요 없음 (vfp/detectors/w2v.py가 대신 처리)
+torch
+torchaudio
+transformers>=4.40
+safetensors
+huggingface_hub
+gdown            # Wav2Vec2-AASIST 가중치(Google Drive) 내려받기
+numpy
+scipy
+soundfile
+librosa
+pandas
+matplotlib
+tabulate
+pyarrow          # 한국어 공개 음성(parquet) 읽기

@@ -1,0 +1,3 @@
+# k2-fsa OmniVoice (02b_tts.py --system omnivoice)용, Apache-2.0
+omnivoice
+soundfile
